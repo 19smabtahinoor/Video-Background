@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.videoBg {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  overflow: hidden;
+  height: 890px;
+  overflow-y: hidden;
+}
+
+.textofvideo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 890px;
+  background-image: linear-gradient(
+    to right top,
+    #2c62b247,
+    #0091d566,
+    #00bbc68a,
+    #00dc918c,
+    #c2f258
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.textofvideo h1 {
+  font-size: 60px;
+  color: white;
+  font-family: "Do Hyeon", sans-serif;
+}
+
+.textofvideo p {
+  color: white;
+  font-family: system-ui;
+  font-size: 18px;
+  width: 710px;
+  text-align-last: center;
+}
+
+.btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 130vh;
+}
+
+.btn button {
+  width: 200px;
+  height: 50px;
+  background-image: linear-gradient(
+    to right top,
+    #2c62b2,
+    #0091d5,
+    #00bcc6,
+    #00dc93,
+    #c2f258
+  );
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  box-shadow: inset 0 0 0 0 white;
+}
+
+.btn button:hover {
+  box-shadow: inset 200px 40px 0 0 white;
+}
+.btn button:hover a {
+  color: #0091d5;
+}
+.btn button a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: system-ui;
+}
